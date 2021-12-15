@@ -13,6 +13,15 @@
 		636B748525F9DBA500220C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636B748325F9DBA500220C80 /* Main.storyboard */; };
 		636B748725F9DBA700220C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636B748625F9DBA700220C80 /* Assets.xcassets */; };
 		636B748A25F9DBA700220C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636B748825F9DBA700220C80 /* LaunchScreen.storyboard */; };
+		636B749B25F9DBC600220C80 /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B749225F9DBC600220C80 /* CellConfigurator.swift */; };
+		636B749C25F9DBC600220C80 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B749325F9DBC600220C80 /* BlogCell.swift */; };
+		636B749D25F9DBC600220C80 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636B749425F9DBC600220C80 /* BlogCell.xib */; };
+		636B749F25F9DBC600220C80 /* FeedListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B749625F9DBC600220C80 /* FeedListPresenter.swift */; };
+		636B74A025F9DBC600220C80 /* NewUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636B749725F9DBC600220C80 /* NewUserCell.xib */; };
+		636B74A125F9DBC600220C80 /* NewUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B749825F9DBC600220C80 /* NewUserCell.swift */; };
+		636B74A225F9DBC600220C80 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636B749925F9DBC600220C80 /* ArticleCell.xib */; };
+		636B74A325F9DBC600220C80 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B749A25F9DBC600220C80 /* ArticleCell.swift */; };
+		636B74A725F9DC2C00220C80 /* FeedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B74A625F9DC2C00220C80 /* FeedListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		636B748625F9DBA700220C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636B748925F9DBA700220C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636B748B25F9DBA700220C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636B749225F9DBC600220C80 /* CellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
+		636B749325F9DBC600220C80 /* BlogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		636B749425F9DBC600220C80 /* BlogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
+		636B749625F9DBC600220C80 /* FeedListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedListPresenter.swift; sourceTree = "<group>"; };
+		636B749725F9DBC600220C80 /* NewUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewUserCell.xib; sourceTree = "<group>"; };
+		636B749825F9DBC600220C80 /* NewUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserCell.swift; sourceTree = "<group>"; };
+		636B749925F9DBC600220C80 /* ArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		636B749A25F9DBC600220C80 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		636B74A625F9DC2C00220C80 /* FeedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			children = (
 				636B747D25F9DBA500220C80 /* AppDelegate.swift */,
 				636B747F25F9DBA500220C80 /* SceneDelegate.swift */,
+				636B749A25F9DBC600220C80 /* ArticleCell.swift */,
+				636B749925F9DBC600220C80 /* ArticleCell.xib */,
+				636B749325F9DBC600220C80 /* BlogCell.swift */,
+				636B749425F9DBC600220C80 /* BlogCell.xib */,
+				636B74A625F9DC2C00220C80 /* FeedListViewController.swift */,
+				636B749225F9DBC600220C80 /* CellConfigurator.swift */,
+				636B749625F9DBC600220C80 /* FeedListPresenter.swift */,
+				636B749825F9DBC600220C80 /* NewUserCell.swift */,
+				636B749725F9DBC600220C80 /* NewUserCell.xib */,
 				636B748125F9DBA500220C80 /* ViewController.swift */,
 				636B748325F9DBA500220C80 /* Main.storyboard */,
 				636B748625F9DBA700220C80 /* Assets.xcassets */,
@@ -125,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				636B748A25F9DBA700220C80 /* LaunchScreen.storyboard in Resources */,
+				636B749D25F9DBC600220C80 /* BlogCell.xib in Resources */,
 				636B748725F9DBA700220C80 /* Assets.xcassets in Resources */,
 				636B748525F9DBA500220C80 /* Main.storyboard in Resources */,
+				636B74A225F9DBC600220C80 /* ArticleCell.xib in Resources */,
+				636B74A025F9DBC600220C80 /* NewUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636B749B25F9DBC600220C80 /* CellConfigurator.swift in Sources */,
+				636B749F25F9DBC600220C80 /* FeedListPresenter.swift in Sources */,
 				636B748225F9DBA500220C80 /* ViewController.swift in Sources */,
 				636B747E25F9DBA500220C80 /* AppDelegate.swift in Sources */,
+				636B74A325F9DBC600220C80 /* ArticleCell.swift in Sources */,
+				636B74A125F9DBC600220C80 /* NewUserCell.swift in Sources */,
+				636B74A725F9DC2C00220C80 /* FeedListViewController.swift in Sources */,
+				636B749C25F9DBC600220C80 /* BlogCell.swift in Sources */,
 				636B748025F9DBA500220C80 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
